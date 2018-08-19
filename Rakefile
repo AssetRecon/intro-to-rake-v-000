@@ -1,7 +1,7 @@
 namespace :greeting do
 desc 'outputs hello to the terminal'
 task :hello do
-  puts "hello from Drake!"
+  puts "hello from Rake!"
 end
 
 desc 'outs hola to the terminal'
