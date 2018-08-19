@@ -27,6 +27,6 @@ task :environment do
 end
 
 desc 'drop into pry console'
-  take :console => environment do 
+  take :console => :environment do
     pry.start
   end
